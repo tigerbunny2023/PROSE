@@ -2,4 +2,4 @@
 
 python main.py
 
-Notes, the code architecture is a bit confusing and wew will constantly update it.
+Notes, the code architecture is a bit confusing and we will constantly update it.
