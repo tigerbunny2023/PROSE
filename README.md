@@ -3,7 +3,7 @@
 ## Update
 [Reviewer 9JfK](https://openreview.net/forum?id=qgjMCSkhRff&noteId=qq09SQpx-a) points out that our method is very complicated with many heuristic designs and losses, which may make it less efficient and hard to reproduce.
 
-We agree with the above viewpoint. And we also believe that the more cumbersome the method, the worse its robustness and generalization. Therefore, recently we have slightly modified the network structure to simplify the proposed method, and discarded several auxiliary components, including node position embedding $\small HPE(v)$,  cross-gradation MI maximum loss $\small \sum_{i=1}^{L}{\mathcal{L}_{cs}^{(i)}} $ and spread out operation loss $\small \sum_{i=1}^{L} {\mathcal{L}_{sp}^{(i)}}$. ***Finally, the improved model does appear more concise, but it still achieves similar performances as reported in the paper***.
+We agree with the above viewpoint. And we also believe that the more cumbersome the method, the worse its robustness and generalization. Therefore, recently we have slightly modified the network structure to simplify the proposed method, and discarded several auxiliary components, including node position embedding,  cross-gradation MI maximum loss and spread out operation loss. ***Finally, the improved model does appear more concise, but it still achieves similar performances as reported in the paper***.
 
 #### The Simplified PROSE (The components coverd by the light red box has been removed!)
 ![Simplified Model.](simplified_architecture.png)
